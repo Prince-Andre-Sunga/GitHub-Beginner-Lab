@@ -44,11 +44,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(31, 114);
+            label2.Location = new Point(12, 113);
             label2.Name = "label2";
-            label2.Size = new Size(271, 25);
+            label2.Size = new Size(319, 25);
             label2.TabIndex = 1;
-            label2.Text = "Student Profile — Juan Dela Cruz";
+            label2.Text = "Student Profile — GitHub Beginner Lab";
             // 
             // Form1
             // 
