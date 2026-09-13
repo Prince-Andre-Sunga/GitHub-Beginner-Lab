@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -50,11 +51,21 @@
             label2.TabIndex = 1;
             label2.Text = "Student Profile — GitHub Beginner Lab";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(38, 162);
+            label3.Name = "label3";
+            label3.Size = new Size(262, 25);
+            label3.TabIndex = 2;
+            label3.Text = "Contact Number: 09171234567";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(356, 191);
+            ClientSize = new Size(356, 237);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -67,5 +78,6 @@
 
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
